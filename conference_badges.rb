@@ -17,7 +17,7 @@ def assign_rooms(name)
   room = 1
   newlist = []
   name.each do |speaker|
-    newlist << "Hello, #{speaker}!You'll be assigned to room #{room}!"
+    newlist << "Hello, #{speaker}! You'll be assigned to room #{room}!"
     room += 1 
   end
       return newlist
