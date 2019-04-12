@@ -24,7 +24,8 @@ def assign_rooms(name)
 end
 
 
-def printer
-  puts batch_badge_creator
-  puts assign_rooms
+def printer(name)
+  batch_badge_creator(name) do |el|
+    puts el
+  end 
 end
